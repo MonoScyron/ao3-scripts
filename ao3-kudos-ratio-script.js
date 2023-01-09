@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            AO3 Show Kudos Ratio
 // @namespace       https://github.com/MonoScyron/ao3-kudos-ratio-script
-// @version         0.5.1
+// @version         0.5.2
 // @description     Shows kudos to hit ratio of a work as a stat. Can be toggled on and off.
 // @author          MonoScyron
 // @updateURL       https://raw.githubusercontent.com/MonoScyron/ao3-kudos-ratio-script/main/ao3-kudos-ratio-script.js
@@ -76,7 +76,7 @@ li a.li-enhancer-a:active {
     settingsLink.setAttribute("data-target", "#");
 
     var settingsLinkText = document.createElement("div");
-    settingsLinkText.innerHTML = "Enhancer";
+    settingsLinkText.innerHTML = "Ratio Settings";
 
     settingsLink.appendChild(settingsLinkText);
     settingsBtn.appendChild(settingsLink);
