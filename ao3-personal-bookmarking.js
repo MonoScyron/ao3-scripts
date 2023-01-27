@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            AO3 Personal Bookmarking
 // @namespace       https://github.com/MonoScyron/ao3-scripts
-// @version         0.0.4
+// @version         0.0.5
 // @description     Personal bookmark formatting script, activates on pressing kudos button.
 // @author          MonoScyron
 // @updateURL       https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/ao3-personal-bookmarking.js
@@ -27,7 +27,7 @@
 
         // Display personal bookmark tags under bookmark input
         const bookmarkTags = [" read for fluff", " read for pain", " read for big brain takes",
-            " read for character", " read for spicy", " rotating...", " complete", " oof"];
+            " read for character", " read for spicy", " bitesized", " rotating...", " oof"];
         let bookmarkTagDisplayHTML = `<span class=" LV_validation_message LV_invalid">
             ${bookmarkTags}
         </span>`;
