@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            AO3 Personal Bookmarking
 // @namespace       https://github.com/MonoScyron/ao3-scripts
-// @version         0.0.5
+// @version         0.0.6
 // @description     Personal bookmark formatting script, activates on pressing kudos button.
 // @author          MonoScyron
 // @updateURL       https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/ao3-personal-bookmarking.js
@@ -23,7 +23,7 @@
 
         // Input formatted notes
         let bookmarkInput = document.querySelector("fieldset #bookmark_notes");
-        bookmarkInput.value = `${title} by ${author} [${fandom}]\n\nsum`;
+        bookmarkInput.value = `${title.trim()} by ${author.trim()} [${fandom.trim()}]`;
 
         // Display personal bookmark tags under bookmark input
         const bookmarkTags = [" read for fluff", " read for pain", " read for big brain takes",
