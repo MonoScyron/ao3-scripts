@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name            AO3 Personal Bookmarking
 // @namespace       https://github.com/MonoScyron/ao3-scripts
-// @version         0.0.6
-// @description     Personal bookmark formatting script, activates on pressing kudos button.
+// @version         0.0.7
+// @description     Personal bookmark formatting script, activates on pressing bookmark button.
 // @author          MonoScyron
 // @updateURL       https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/ao3-personal-bookmarking.js
 // @downloadURL     https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/ao3-personal-bookmarking.js
@@ -41,5 +41,5 @@
 
     // If fic is not currently bookmarked
     if(!document.querySelector("a.bookmark_form_placement_open:not([style])").innerHTML.includes("Edit"))
-        document.getElementById("new_kudo").addEventListener("click", inputBookmark);
+        document.querySelector("#feedback ul.actions a.bookmark_form_placement_open").addEventListener("click", inputBookmark);
 })();
