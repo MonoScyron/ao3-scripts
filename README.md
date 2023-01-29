@@ -6,4 +6,4 @@ Simple script that calculates the ratio between a work's kudos and hits and adds
 
 ## AO3 Personal Bookmarking
 
-Personal bookmark formatting script, activates on pressing kudos button.
+Personal bookmark formatting script, activates on pressing bookmark button.
