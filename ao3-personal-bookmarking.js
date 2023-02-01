@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            AO3 Personal Bookmarking
 // @namespace       https://github.com/MonoScyron/ao3-scripts
-// @version         0.0.8
+// @version         0.0.9
 // @description     Personal bookmark formatting script, activates on pressing bookmark button.
 // @author          MonoScyron
 // @updateURL       https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/ao3-personal-bookmarking.js
@@ -35,8 +35,29 @@
         let bookmarkTagDisplay = document.createElement('div');
         bookmarkTagDisplay.innerHTML = bookmarkTagDisplayHTML;
         bookmarkTagDisplay = bookmarkTagDisplay.firstChild;
-
         document.querySelector("#bookmark-form ul.autocomplete").appendChild(bookmarkTagDisplay);
+
+        /* Auto-add some tags based on fic stats:
+            - "oof" if fic isn't complete and hasn't been updated in 2 years
+            - "bitesized" if fic is complete and is less than 10k words
+        */
+        let bookmarkTagInput = document.getElementById("bookmark_tag_string_autocomplete");
+        let chapter = document.querySelector("dl.meta dl.stats dd.chapters").innerText.split("/");
+        if(chapter[1] == "?" || chapter[0] != chapter[1]) {
+            let date = new Date(document.querySelector("dl.meta dl.stats dd.status").innerText);
+            let daysSince = (Date.now() - date.getTime()) / (1000 * 60 * 60 * 24);
+            if(daysSince > 731) {
+                bookmarkTagInput.value = "oof";
+                bookmarkTagInput.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter" }));
+            }
+        }
+        else {
+            let wordCount = parseInt(document.querySelector("dl.meta dl.stats dd.words").innerText);
+            if(wordCount < 10000) {
+                bookmarkTagInput.value = "bitesized";
+                bookmarkTagInput.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter" }));
+            }
+        }
     }
 
     // If fic is not currently bookmarked
