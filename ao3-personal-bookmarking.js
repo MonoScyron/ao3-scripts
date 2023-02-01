@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            AO3 Personal Bookmarking
 // @namespace       https://github.com/MonoScyron/ao3-scripts
-// @version         0.0.7
+// @version         0.0.8
 // @description     Personal bookmark formatting script, activates on pressing bookmark button.
 // @author          MonoScyron
 // @updateURL       https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/ao3-personal-bookmarking.js
