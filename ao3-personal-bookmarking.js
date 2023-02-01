@@ -40,6 +40,9 @@
     }
 
     // If fic is not currently bookmarked
-    if(!document.querySelector("a.bookmark_form_placement_open:not([style])").innerHTML.includes("Edit"))
-        document.querySelector("#feedback ul.actions a.bookmark_form_placement_open").addEventListener("click", inputBookmark);
+    if(!document.querySelector("a.bookmark_form_placement_open:not([style])").innerHTML.includes("Edit")) {
+        document.querySelectorAll("ul.actions a.bookmark_form_placement_open").forEach((e) => {
+            e.addEventListener("click", inputBookmark);
+        });
+    }
 })();
