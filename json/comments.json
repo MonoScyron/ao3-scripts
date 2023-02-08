@@ -1,5 +1,58 @@
 {
-    "bals": {
-        "YEEHAW": "HAWYEE"
-    }
+    "origin": [
+        "[myPlace:#path#]#line#"
+    ],
+    "line": [
+        "#mood.capitalize# and #mood#, the #myPlace# was #mood# with #substance#",
+        "#nearby.capitalize# #myPlace.a# #move.ed# through the #path#, filling me with #substance#"
+    ],
+    "nearby": [
+        "beyond the #path#",
+        "far away",
+        "ahead",
+        "behind me"
+    ],
+    "substance": [
+        "light",
+        "reflections",
+        "mist",
+        "shadow",
+        "darkness",
+        "brightness",
+        "gaiety",
+        "merriment"
+    ],
+    "mood": [
+        "overcast",
+        "alight",
+        "clear",
+        "darkened",
+        "blue",
+        "shadowed",
+        "illuminated",
+        "silver",
+        "cool",
+        "warm",
+        "summer-warmed"
+    ],
+    "path": [
+        "stream",
+        "brook",
+        "path",
+        "ravine",
+        "forest",
+        "fence",
+        "stone wall"
+    ],
+    "move": [
+        "spiral",
+        "twirl",
+        "curl",
+        "dance",
+        "twine",
+        "weave",
+        "meander",
+        "wander",
+        "flow"
+    ]
 }

@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "webpack --mode=development --config webpack.config.js",
+    "prod": "webpack --mode=production --config webpack.config.js"
+  },
+  "dependencies": {
+    "@types/tampermonkey": "^4.0.10",
+    "copy-webpack-plugin": "^11.0.0",
+    "tracery-grammar": "^2.7.4",
+    "ts-loader": "^9.4.2"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "install": "^0.13.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
