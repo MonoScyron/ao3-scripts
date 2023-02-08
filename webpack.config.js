@@ -25,6 +25,6 @@ module.exports = {
             patterns: [
                 { from: "*.js", context: "src/" }
             ],
-        }),
+        })
     ],
 };
