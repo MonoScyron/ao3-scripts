@@ -8,17 +8,21 @@
     "love": [
         "#freakout# THIS IS SO #swearing# #ficAdj#",
         "#freakout# THIS IS SO #swearing# #ficAdj# #sparkleEmote#",
-        "#freakout# THIS IS SO #swearing# #ficAdj# #heartEmote#"
+        "#freakout# THIS IS SO #swearing# #ficAdj# #heartEmote#",
+        "#freakout# THIS IS SO #ficAdj#",
+        "#freakout# THIS IS SO #ficAdj# #sparkleEmote#",
+        "#freakout# THIS IS SO #ficAdj# #heartEmote#"
     ],
     "angst": [
         "#crying# my #angstAdj# heart",
         "#crying# my #angstAdj# heart #sobEmote#",
+        "#crying# my heart",
+        "#crying# my heart #sobEmote#",
         "#crying# /pos",
         "#sobEmote# /pos",
         "#crying# #sobEmote# /pos"
     ],
     "angstAdj": [
-        "",
         "poor",
         "poor fucking",
         "broken",
@@ -56,7 +60,6 @@
         "・+(*゜∀゜*)+・"
     ],
     "freakout": [
-        "",
         "OMG",
         "HOLY SHIT",
         "SCREAMING",
@@ -79,7 +82,6 @@
         "L"
     ],
     "swearing": [
-        "",
         "FUCKING",
         "DAMN"
     ],
