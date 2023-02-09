@@ -1,14 +1,15 @@
 {
   "scripts": {
-    "ban-comments": "bannerize dist/ao3-comments-dropdown.js --banner=src/ao3-comments-dropdown.ejs",
-    "ban-ratio": "bannerize dist/ao3-kudos-ratio-script.js --banner=src/ao3-kudos-ratio-script.ejs",
-    "ban-bookmark": "bannerize dist/ao3-personal-bookmarking.js --banner=src/ao3-personal-bookmarking.ejs",
-    "build": "webpack --mode=production --config webpack.config.js && npm run ban-comments && npm run ban-ratio && npm run ban-bookmark"
+    "banner": "bannerize dist/ao3-comments-dropdown.js --banner=src/ao3-comments-dropdown.ejs",
+    "build": "tsc && webpack --mode=production --config webpack.config.js && npm run banner"
   },
   "dependencies": {
     "@types/tampermonkey": "^4.0.10",
+    "bannerize": "^1.1.4",
     "tracery-grammar": "^2.7.4",
-    "ts-loader": "^9.4.2"
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2"

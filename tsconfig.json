@@ -16,6 +16,7 @@
         "node_modules",
         "lib",
         "build",
-        ".vscode"
+        ".vscode",
+        "src/ao3-comments-dropdown.ts"
     ]
 }
