@@ -1,58 +1,91 @@
 {
-    "origin": [
-        "[myPlace:#path#]#line#"
+    "clear": [
+        ""
     ],
-    "line": [
-        "#mood.capitalize# and #mood#, the #myPlace# was #mood# with #substance#",
-        "#nearby.capitalize# #myPlace.a# #move.ed# through the #path#, filling me with #substance#"
+    "re_read": [
+        "Re-read kudos #heartEmote#"
     ],
-    "nearby": [
-        "beyond the #path#",
-        "far away",
-        "ahead",
-        "behind me"
+    "love": [
+        "#freakout# THIS IS SO #swearing# #ficAdj#",
+        "#freakout# THIS IS SO #swearing# #ficAdj# #sparkleEmote#",
+        "#freakout# THIS IS SO #swearing# #ficAdj# #heartEmote#"
     ],
-    "substance": [
-        "light",
-        "reflections",
-        "mist",
-        "shadow",
-        "darkness",
-        "brightness",
-        "gaiety",
-        "merriment"
+    "angst": [
+        "#crying# my #angstAdj# heart",
+        "#crying# my #angstAdj# heart #sobEmote#",
+        "#crying# /pos",
+        "#sobEmote# /pos",
+        "#crying# #sobEmote# /pos"
     ],
-    "mood": [
-        "overcast",
-        "alight",
-        "clear",
-        "darkened",
-        "blue",
-        "shadowed",
-        "illuminated",
-        "silver",
-        "cool",
-        "warm",
-        "summer-warmed"
+    "angstAdj": [
+        "",
+        "poor",
+        "poor fucking",
+        "broken",
+        "broken fucking"
     ],
-    "path": [
-        "stream",
-        "brook",
-        "path",
-        "ravine",
-        "forest",
-        "fence",
-        "stone wall"
+    "crying": [
+        "crying",
+        "crying and screaming",
+        "wailing",
+        "unholy screeching",
+        "screeching"
     ],
-    "move": [
-        "spiral",
-        "twirl",
-        "curl",
-        "dance",
-        "twine",
-        "weave",
-        "meander",
-        "wander",
-        "flow"
+    "sobEmote": [
+        "(ಥ﹏ಥ)",
+        "ಥ_ಥ",
+        "（ ＴДＴ）",
+        "(´;︵;`)",
+        "(´;ω;｀)"
+    ],
+    "heartEmote": [
+        "💕",
+        "💖",
+        "❤️",
+        "♡( ◡‿◡ )",
+        "(´ ω `♡)",
+        "(*˘︶˘*)♡",
+        "(◕‿◕)♡",
+        "(♡˙︶˙♡)",
+        "( ´ ▽ ` )♡"
+    ],
+    "sparkleEmote": [
+        "(人´∀｀)．☆．。．:*･°",
+        "°+(*´∀｀)ｂ°+°",
+        "(★O∀O*)☆+",
+        "・+(*゜∀゜*)+・"
+    ],
+    "freakout": [
+        "",
+        "OMG",
+        "HOLY SHIT",
+        "SCREAMING",
+        "CRYING",
+        "SCREECHING",
+        "AAAAA",
+        "AAAAAAAAAA",
+        "HGHGHGHHHHHHHH",
+        "#key##key##key##key##key##key##key##key##key##key##key##key#"
+    ],
+    "key": [
+        "A",
+        "S",
+        "D",
+        "F",
+        "G",
+        "H",
+        "J",
+        "K",
+        "L"
+    ],
+    "swearing": [
+        "",
+        "FUCKING",
+        "DAMN"
+    ],
+    "ficAdj": [
+        "GOOD",
+        "AMAZING",
+        "WONDERFUL"
     ]
 }
