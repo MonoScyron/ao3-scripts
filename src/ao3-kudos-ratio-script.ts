@@ -1,23 +1,23 @@
 // ==UserScript==
 // @name            AO3 Show Kudos Ratio
 // @namespace       https://github.com/MonoScyron/ao3-scripts
-// @version         1.0.0
+// @version         1.0.1
 // @description     Shows kudos to hit ratio of a work as a stat. Can be toggled on and off.
 // @author          MonoScyron
-// @updateURL       https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/build/ao3-kudos-ratio-script.js
-// @downloadURL     https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/build/ao3-kudos-ratio-script.js
+// @updateURL       https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/dist/ao3-kudos-ratio-script.js
+// @downloadURL     https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/dist/ao3-kudos-ratio-script.js
 // @match           https://archiveofourown.org/*
 // @icon            https://archiveofourown.org/images/ao3_logos/logo_42.png
 // @noframes
 // ==/UserScript==
 
-(function() {
+(function () {
     "use strict";
     // Create ratio elements for all works on page
     var ratio_dtList = [];
     var ratio_ddList = [];
     // Get list of works
-    var workList = [];
+    var workList: HTMLCollectionOf<Element> | Element[] = [];
     if(document.URL.split('/')[3] == "works") {
         workList = document.getElementsByClassName("work meta group"); // meta
     }
@@ -25,12 +25,12 @@
         document.querySelectorAll('.index.group .group[role="article"]:not([class*=series])').forEach((w) => {
             // Check if work is deleted
             if(w.querySelector('p.message') == null)
-                workList.push(w);
+                (workList as Element[]).push(w);
         });
     }
 
     // Get list of work stats
-    var statsList = [];
+    var statsList: NodeListOf<Element>;
     if(document.URL.split('/')[3] == "works") {
         statsList = document.querySelectorAll("dl.stats");
     }
@@ -49,13 +49,13 @@
             ratio_dt.innerHTML = "Ratio:";
 
             var kudos;
-            if(work.querySelector("dd.kudos").firstChild.nodeName == "A") {
-                kudos = parseInt(work.querySelector("dd.kudos").firstChild.innerHTML);
+            if(work.querySelector("dd.kudos")?.firstChild?.nodeName == "A") {
+                kudos = parseInt(work.querySelector("dd.kudos")!.firstElementChild!.innerHTML);
             }
             else {
-                kudos = parseInt(work.querySelector("dd.kudos").innerHTML);
+                kudos = parseInt(work.querySelector("dd.kudos")!.innerHTML);
             }
-            var hits = parseInt(work.querySelector("dd.hits").innerHTML);
+            var hits = parseInt(work.querySelector("dd.hits")!.innerHTML);
 
             var ratio_dd = document.createElement("dd");
             ratio_dd.className = "ratio";
@@ -78,7 +78,7 @@
     // Add ratio elements    
     for(var i = 0; i < statsList.length; i++) {
         if(ratio_dtList[i] != null && ratio_ddList[i] != null) {
-            statsList[i].append(ratio_dtList[i], ratio_ddList[i]);
+            statsList[i].append(ratio_dtList[i]!, ratio_ddList[i]!);
         }
     }
 })();

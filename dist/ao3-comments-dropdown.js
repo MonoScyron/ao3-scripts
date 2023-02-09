@@ -1,3 +1,4 @@
+"use strict";
 // ==UserScript==
 // @name                AO3 Comments Dropdown (WIP)
 // @namespace           https://github.com/MonoScyron/ao3-scripts
@@ -13,7 +14,6 @@
 // @grant               GM_getResourceText
 // @noframes
 // ==/UserScript==
-
 (function () {
     'use strict';
     let tracery = require('tracery-grammar');
