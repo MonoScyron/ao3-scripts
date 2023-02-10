@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name                AO3 Comments Dropdown (WIP)
+// @name                AO3 Comments Dropdown
 // @namespace           https://github.com/MonoScyron/ao3-scripts
-// @version             0.0.2
+// @version             0.0.3
 // @description         Dropdown button for random nice commments.
 // @author              MonoScyron
 // @updateURL           https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/dist/ao3-comments-dropdown.js
