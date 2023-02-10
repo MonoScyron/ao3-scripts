@@ -20,7 +20,7 @@
     let dropdown = dropdownWrap.firstElementChild as HTMLSelectElement;
 
     const COMMENT_INPUT = document.querySelector("textarea[id*='comment_content_for']") as HTMLTextAreaElement;
-    dropdown.addEventListener('change', () => COMMENT_INPUT.value = grammar.flatten(`#${dropdown.value}#`));
+    dropdown.addEventListener('change', () => COMMENT_INPUT.value = grammar.flatten(`#${dropdown.value}#`).replace("  ", " "));
 
     let comment = document.querySelector("form.new_comment fieldset")!;
     comment.insertBefore(dropdownWrap, comment.children[3]);

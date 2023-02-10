@@ -6,12 +6,24 @@
         "Re-read kudos #heartEmote#"
     ],
     "love": [
+        "#love_1#",
+        "#love_2#"
+    ],
+    "love_1": [
         "#freakout# THIS IS SO #swearing# #ficAdjCap#",
         "#freakout# THIS IS #ficAdjCap#",
         "THIS IS SO #swearing# #ficAdjCap# #sparkleEmote#",
         "THIS IS SO #swearing# #ficAdjCap# #heartEmote#",
         "this fic was #ficAdj# #sparkleEmote#",
         "this fic was #ficAdj# #heartEmote#"
+    ],
+    "love_2": [
+        "puts this fic in my mouth",
+        "puts this fic in my mouth #sparkleEmote#",
+        "puts this fic in my mouth #heartEmote#",
+        "eats this fic",
+        "eats this fic #sparkleEmote#",
+        "eats this fic #heartEmote#"
     ],
     "angst": [
         "#crying# my #angstAdj# heart",
