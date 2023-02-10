@@ -6,12 +6,12 @@
         "Re-read kudos #heartEmote#"
     ],
     "love": [
-        "#freakout# THIS IS SO #swearing# #ficAdj#",
-        "#freakout# THIS IS SO #swearing# #ficAdj# #sparkleEmote#",
-        "#freakout# THIS IS SO #swearing# #ficAdj# #heartEmote#",
-        "#freakout# THIS IS SO #ficAdj#",
-        "#freakout# THIS IS SO #ficAdj# #sparkleEmote#",
-        "#freakout# THIS IS SO #ficAdj# #heartEmote#"
+        "#freakout# THIS IS SO #swearing# #ficAdjCap#",
+        "#freakout# THIS IS #ficAdjCap#",
+        "THIS IS SO #swearing# #ficAdjCap# #sparkleEmote#",
+        "THIS IS SO #swearing# #ficAdjCap# #heartEmote#",
+        "this fic was #ficAdj# #sparkleEmote#",
+        "this fic was #ficAdj# #heartEmote#"
     ],
     "angst": [
         "#crying# my #angstAdj# heart",
@@ -19,8 +19,8 @@
         "#crying# my heart",
         "#crying# my heart #sobEmote#",
         "#crying# /pos",
-        "#sobEmote# /pos",
-        "#crying# #sobEmote# /pos"
+        "#sobEmote#",
+        "#crying# #sobEmote#"
     ],
     "angstAdj": [
         "poor",
@@ -64,11 +64,17 @@
         "HOLY SHIT",
         "SCREAMING",
         "CRYING",
+        "SCREAMING AND CRYING",
+        "SHAKES YOU LIKE #shakeObject#",
         "SCREECHING",
         "AAAAA",
         "AAAAAAAAAA",
         "HGHGHGHHHHHHHH",
         "#key##key##key##key##key##key##key##key##key##key##key##key#"
+    ],
+    "shakeObject": [
+        "A JAR OF BEANS",
+        "A MARACA"
     ],
     "key": [
         "A",
@@ -85,9 +91,14 @@
         "FUCKING",
         "DAMN"
     ],
-    "ficAdj": [
+    "ficAdjCap": [
+        "LOVELY",
         "GOOD",
-        "AMAZING",
-        "WONDERFUL"
+        "AMAZING"
+    ],
+    "ficAdj": [
+        "lovely",
+        "so good",
+        "amazing"
     ]
 }
