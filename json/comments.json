@@ -1,116 +1,116 @@
 {
-    "clear": [
-        ""
-    ],
-    "re_read": [
-        "Re-read kudos #heartEmote#"
-    ],
-    "love": [
-        "#love_1#",
-        "#love_2#"
-    ],
-    "love_1": [
-        "#freakout# THIS IS SO #swearing# #ficAdjCap#",
-        "#freakout# THIS IS #ficAdjCap#",
-        "THIS IS SO #swearing# #ficAdjCap# #sparkleEmote#",
-        "THIS IS SO #swearing# #ficAdjCap# #heartEmote#",
-        "this fic was #ficAdj# #sparkleEmote#",
-        "this fic was #ficAdj# #heartEmote#"
-    ],
-    "love_2": [
-        "puts this fic in my mouth",
-        "puts this fic in my mouth #sparkleEmote#",
-        "puts this fic in my mouth #heartEmote#",
-        "eats this fic",
-        "eats this fic #sparkleEmote#",
-        "eats this fic #heartEmote#"
-    ],
-    "angst": [
-        "#crying# my #angstAdj# heart",
-        "#crying# my #angstAdj# heart #sobEmote#",
-        "#crying# my heart",
-        "#crying# my heart #sobEmote#",
-        "#crying# /pos",
-        "#sobEmote#",
-        "#crying# #sobEmote#"
-    ],
-    "angstAdj": [
-        "poor",
-        "poor fucking",
-        "broken",
-        "broken fucking"
-    ],
-    "crying": [
-        "crying",
-        "crying and screaming",
-        "wailing",
-        "unholy screeching",
-        "screeching"
-    ],
-    "sobEmote": [
-        "(ಥ﹏ಥ)",
-        "ಥ_ಥ",
-        "（ ＴДＴ）",
-        "(´;︵;`)",
-        "(´;ω;｀)"
-    ],
-    "heartEmote": [
-        "💕",
-        "💖",
-        "❤️",
-        "♡( ◡‿◡ )",
-        "(´ ω `♡)",
-        "(*˘︶˘*)♡",
-        "(◕‿◕)♡",
-        "(♡˙︶˙♡)",
-        "( ´ ▽ ` )♡"
-    ],
-    "sparkleEmote": [
-        "(人´∀｀)．☆．。．:*･°",
-        "°+(*´∀｀)ｂ°+°",
-        "(★O∀O*)☆+",
-        "・+(*゜∀゜*)+・"
-    ],
-    "freakout": [
-        "OMG",
-        "HOLY SHIT",
-        "SCREAMING",
-        "CRYING",
-        "SCREAMING AND CRYING",
-        "SHAKES YOU LIKE #shakeObject#",
-        "SCREECHING",
-        "AAAAA",
-        "AAAAAAAAAA",
-        "HGHGHGHHHHHHHH",
-        "#key##key##key##key##key##key##key##key##key##key##key##key#"
-    ],
-    "shakeObject": [
-        "A JAR OF BEANS",
-        "A MARACA"
-    ],
-    "key": [
-        "A",
-        "S",
-        "D",
-        "F",
-        "G",
-        "H",
-        "J",
-        "K",
-        "L"
-    ],
-    "swearing": [
-        "FUCKING",
-        "DAMN"
-    ],
-    "ficAdjCap": [
-        "LOVELY",
-        "GOOD",
-        "AMAZING"
-    ],
-    "ficAdj": [
-        "lovely",
-        "so good",
-        "amazing"
-    ]
+  "clear": [
+    ""
+  ],
+  "re_read": [
+    "Re-read kudos #heartEmote#"
+  ],
+  "love": [
+    "#love_1#",
+    "#love_2#"
+  ],
+  "love_1": [
+    "#freakout# THIS IS SO #swearing# #ficAdjCap#",
+    "#freakout# THIS IS #ficAdjCap#",
+    "THIS IS SO #swearing# #ficAdjCap# #sparkleEmote#",
+    "THIS IS SO #swearing# #ficAdjCap# #heartEmote#",
+    "this fic was #ficAdj# #sparkleEmote#",
+    "this fic was #ficAdj# #heartEmote#"
+  ],
+  "love_2": [
+    "puts this fic in my mouth thanks for the food",
+    "puts this fic in my mouth thanks for the food #heartEmote#",
+    "eats this fic thanks for the food",
+    "eats this fic thanks for the food #heartEmote#",
+    "injecting this fic into my blood",
+    "injecting this fic into my blood #heartEmote#"
+  ],
+  "angst": [
+    "#crying# my #angstAdj# heart",
+    "#crying# my #angstAdj# heart #sobEmote#",
+    "#crying# my heart",
+    "#crying# my heart #sobEmote#",
+    "#crying# /pos",
+    "#sobEmote#",
+    "#crying# #sobEmote#"
+  ],
+  "angstAdj": [
+    "poor",
+    "poor fucking",
+    "broken",
+    "broken fucking"
+  ],
+  "crying": [
+    "crying",
+    "crying and screaming",
+    "wailing",
+    "unholy screeching",
+    "screeching"
+  ],
+  "sobEmote": [
+    "(ಥ﹏ಥ)",
+    "ಥ_ಥ",
+    "（ ＴДＴ）",
+    "(´;︵;`)",
+    "(´;ω;｀)"
+  ],
+  "heartEmote": [
+    "💕",
+    "💖",
+    "❤️",
+    "♡( ◡‿◡ )",
+    "(´ ω `♡)",
+    "(*˘︶˘*)♡",
+    "(◕‿◕)♡",
+    "(♡˙︶˙♡)",
+    "( ´ ▽ ` )♡"
+  ],
+  "sparkleEmote": [
+    "(人´∀｀)．☆．。．:*･°",
+    "°+(*´∀｀)ｂ°+°",
+    "(★O∀O*)☆+",
+    "・+(*゜∀゜*)+・"
+  ],
+  "freakout": [
+    "OMG",
+    "HOLY SHIT",
+    "SCREAMING",
+    "CRYING",
+    "SCREAMING AND CRYING",
+    "SHAKES YOU LIKE #shakeObject#",
+    "SCREECHING",
+    "AAAAA",
+    "AAAAAAAAAA",
+    "HGHGHGHHHHHHHH",
+    "#key##key##key##key##key##key##key##key##key##key##key##key#"
+  ],
+  "shakeObject": [
+    "A JAR OF BEANS",
+    "A MARACA"
+  ],
+  "key": [
+    "A",
+    "S",
+    "D",
+    "F",
+    "G",
+    "H",
+    "J",
+    "K",
+    "L"
+  ],
+  "swearing": [
+    "FUCKING",
+    "DAMN"
+  ],
+  "ficAdjCap": [
+    "LOVELY",
+    "GOOD",
+    "AMAZING"
+  ],
+  "ficAdj": [
+    "lovely",
+    "so good",
+    "amazing"
+  ]
 }
