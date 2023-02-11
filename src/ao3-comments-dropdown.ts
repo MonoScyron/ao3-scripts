@@ -10,7 +10,6 @@
             <option selected="selected" value="clear"></option>
             <option value="re_read">Re-read</option>
             <option value="love">Love</option>
-            <option value="angst">Crying</option>
         </select>
     </p>
     `;
