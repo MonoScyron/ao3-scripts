@@ -6,7 +6,15 @@
     "Re-read kudos #heartEmote#"
   ],
   "love": [
-    "#heartEmote#"
+    "loved it #heartEmote#",
+    "#great# fic #heartEmote#",
+    "thanks for the fic #heartEmote#"
+  ],
+  "great": [
+    "amazing",
+    "fantastic",
+    "wonderful",
+    "great"
   ],
   "heartEmote": [
     "#heart1#",
