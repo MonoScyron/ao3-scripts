@@ -1,7 +1,10 @@
 {
   "scripts": {
-    "banner": "bannerize dist/ao3-comments-dropdown.js --banner=src/ao3-comments-dropdown.ejs",
-    "build": "tsc && webpack --mode=production --config webpack.config.js && npm run banner"
+    "build": "tsc && npm run ao3-comments-dropdown && npm run ao3-kudos-comment",
+    "ao3-comments-dropdown": "webpack --mode=production --config webpack.config-1.js && npm run banner1",
+    "ao3-kudos-comment": "webpack --mode=production --config webpack.config-2.js && npm run banner2",
+    "banner1": "bannerize dist/ao3-comments-dropdown.js --banner=src/ao3-comments-dropdown.ejs",
+    "banner2": "bannerize dist/ao3-kudos-comment.js --banner=src/ao3-kudos-comment.ejs"
   },
   "dependencies": {
     "@types/tampermonkey": "^4.0.10",
