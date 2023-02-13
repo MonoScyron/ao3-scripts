@@ -11,3 +11,7 @@ Personal bookmark formatting script, activates on pressing bookmark button.
 ## AO3 Comments Dropdown
 
 Adds a dropdown button for randomly generated nice commments.
+
+## AO3 Kudos Comment
+
+If fic is already kudos-ed, clicking the kudos button automatically writes a nice comment.
