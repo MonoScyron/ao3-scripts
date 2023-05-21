@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            AO3 Personal Bookmarking
 // @namespace       https://github.com/MonoScyron/ao3-scripts
-// @version         1.0.2
+// @version         1.0.3
 // @description     Personal bookmark formatting script, activates on pressing bookmark button.
 // @author          MonoScyron
 // @updateURL       https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/dist/ao3-personal-bookmarking.js
@@ -30,7 +30,7 @@
             }
         }
         else {
-            let wordCount = parseInt((document.querySelector("dl.meta dl.stats dd.words") as HTMLElement).innerText);
+            let wordCount = parseInt((document.querySelector("dl.meta dl.stats dd.words") as HTMLElement).innerText.replace(/[^0-9]/g, ''));
             if(wordCount < 10000) {
                 bookmarkTagInput.value = "bitesized";
                 bookmarkTagInput.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter" }));
