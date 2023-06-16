@@ -15,3 +15,7 @@ Adds a dropdown button for randomly generated nice commments.
 ## AO3 Kudos Comment
 
 If fic is already kudos-ed, clicking the kudos button automatically writes a nice comment.
+
+## AO3 Remove Customize
+
+Hides the "Customize" section in the footer.

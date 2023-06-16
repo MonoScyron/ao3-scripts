@@ -3,7 +3,7 @@
 // @name            AO3 Show Kudos Ratio
 // @namespace       https://github.com/MonoScyron/ao3-scripts
 // @version         1.0.1
-// @description     Shows kudos to hit ratio of a work as a stat. Can be toggled on and off.
+// @description     Shows kudos to hit ratio of a work as a stat.
 // @author          MonoScyron
 // @updateURL       https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/dist/ao3-kudos-ratio-script.js
 // @downloadURL     https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/dist/ao3-kudos-ratio-script.js
