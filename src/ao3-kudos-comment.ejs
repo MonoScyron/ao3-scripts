@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                AO3 Kudos Comment
 // @namespace           https://github.com/MonoScyron/ao3-scripts
-// @version             0.0.1
+// @version             1.0.0
 // @description         If fic is already kudos-ed, clicking the kudos button automatically writes a nice comment.
 // @author              MonoScyron
 // @updateURL           https://raw.githubusercontent.com/MonoScyron/ao3-scripts/main/dist/ao3-kudos-comment.js
