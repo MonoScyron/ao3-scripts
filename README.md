@@ -19,3 +19,7 @@ If fic is already kudos-ed, clicking the kudos button automatically writes a nic
 ## AO3 Remove Customize
 
 Hides the "Customize" section in the footer.
+
+## AO3 Remove Mute Banner
+
+Hides the "Muted Users" banner on the top of the page.
